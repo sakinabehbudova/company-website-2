@@ -1,5 +1,5 @@
 #section1 {
-  padding-bottom: 500px;
+  padding-bottom: 100px;
 }
 .hero-slider {
   width: 100%;
@@ -103,9 +103,9 @@
 }
 
 .hero-slider .swiper-button-prev:before {
-  font-family: "Font Awesome 5 Free";
-  content: "\f060";
-  font-size: 15px;
+  /* font-family: "Font Awesome 5 Free"; */
+  content: "<";
+  font-size: 35px;
   color: #d4d3d3;
   font-style: normal;
   display: inline-block;
@@ -122,7 +122,7 @@
   /* font-family: "Font Awesome 5 Free"; */
   content: ">";
   font-size: 35px;
-  color: #001538;
+  color: #d4d3d3;
   font-style: normal;
   display: inline-block;
   /* vertical-align: middle; */
@@ -173,7 +173,7 @@
 
 @media (min-width: 767px) {
   .hero-slider .swiper-container-horizontal > .swiper-pagination-bullets {
-    bottom: 30px;
+    bottom: 8px;
   }
 }
 
