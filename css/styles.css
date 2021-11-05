@@ -5,7 +5,7 @@ body {
     bottom: 5% !important;
 } */
 .container1 {
-  width: 1440px;
+  max-width: 1380px;
   margin: auto;
 }
 header {
@@ -205,12 +205,17 @@ header {
   position: relative;
   width: 100%;
   z-index: 2;
+  right: 20px;
+  top: 20px;
+}
+#contact .section4-img:after {
+  background: #f2f7fb;
 }
 .section4-img:before {
   display: block;
   position: absolute;
-  top: -20px;
-  right: -20px;
+  top: 0px;
+  right: 0px;
   width: 90%;
   height: 80%;
   content: "";
@@ -267,6 +272,7 @@ header {
   line-height: 24px;
   color: #3b3b3b;
 }
+/*Footer*/
 footer {
   background-color: #f7f7f7;
   margin-top: 40px;
@@ -309,4 +315,158 @@ footer {
 }
 .social-icon:hover i {
   color: #fff;
+}
+/*Back To Top Btn*/
+#back-to-top-btn {
+  position: fixed;
+  display: none;
+  right: 0;
+  bottom: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+
+  -webkit-appearance: none;
+
+  width: 65px;
+  height: 65px;
+  /* padding: 10px 0 0; */
+  font-size: 16px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background: #001538b3;
+  opacity: 0;
+  transition: all 0.2s ease-out;
+  font-weight: 600;
+
+  letter-spacing: -0.03em;
+}
+#back-to-top-btn i {
+  display: block;
+}
+#back-to-top-btn:hover {
+  background: #0073bc;
+}
+.btnEntrance {
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-name: btnEntrance;
+}
+/*fadeInUp*/
+@keyframes btnEntrance {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+.btnExit {
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-name: btnExit;
+}
+/*fadeOutDown*/
+@keyframes btnExit {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+}
+/*Contact Page*/
+#contact {
+  padding-top: 30px;
+}
+.contact-title {
+  color: #001538;
+  font-weight: 700;
+  line-height: 1.25em;
+  margin: 0 0 20px;
+  padding: 0;
+  font-size: 60px;
+}
+.contact-card-1{
+  border: 4px solid #00bce8;
+}
+.contact-card-2{
+  border: 4px solid #ffe000;
+}
+.contact-card-1,.contact-card-2 {
+ 
+  margin: 4px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.contact-card-inner{
+  padding:50px 80px;
+  text-align: center;
+}
+.contact-card-header {
+  color: #001538;
+  font-size: 30px;
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+.contact-card-1 .card-content{
+  margin-bottom: 50px;
+}
+.card-content {
+  margin: 0 0 15px;
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 26px;
+  font-weight: 600;
+  
+}
+.email{
+  color: #00578b;
+  text-decoration: underline;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.email:hover,.details a:hover{
+  color: #0073bc;
+}
+#careers{
+  margin-top: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f2f7fb;
+}
+.careers-title{
+  display: block;
+    margin: 0 0 28px;
+    font-size: 2.5rem;
+    line-height: 34px;
+    font-weight: 700;
+    color: #001538;
+}
+.p-90{
+  padding: 0 90px !important;
+}
+.details a{
+  color: #00578b;
+  margin-left: 5px;
+}
+.details {
+  font-size: 1.1rem;
+  font-weight: 600;
+margin-bottom: 8px !important;
+
+  text-decoration: underline;
+
+}
+.contact-wrapper{
+  width: 55%;
+  margin: auto;
+  padding: 50px 0;
 }
