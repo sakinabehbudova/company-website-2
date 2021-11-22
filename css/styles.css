@@ -581,7 +581,10 @@ footer {
   padding: 25px 0 60px;
 }
 .other-pages {
-  padding: 50px 0;
+  padding: 50px 0 10px;
+}
+.other-pages .col-md-4 {
+  margin-bottom: 40px;
 }
 .title2 {
   font-size: 1.9375rem;
@@ -642,9 +645,95 @@ footer {
   background-color: #f9f765;
   padding: 75px 240px 70px 80px;
 }
-.theme-colour--1  p{
+.theme-colour--1 p {
   font-size: 24px;
   line-height: 37px;
   color: #001538;
   font-weight: 700;
+}
+.details-1 {
+  background-color: #f2f7fb;
+  padding: 30px 0 10px;
+}
+.accordion .card {
+  background-color: #fff;
+  height: auto;
+  border: 1px solid #fff;
+  border-top: none;
+
+  margin-bottom: 15px;
+}
+.accordion .card-header {
+  background-color: #fff;
+  height: auto;
+  padding: 0;
+  /* margin-bottom: 0 !important; */
+  border: none;
+}
+.accordion .collapsing {
+  /* border: 1px solid #001538; */
+  border-bottom: none;
+}
+.accordion button.collapsed {
+  /* border-top: 1px solid #001538; */
+  border-radius: 0;
+  line-height: 1.4;
+  white-space: unset;
+  font-weight: 600;
+  cursor: pointer;
+  background: none;
+  color: #001538;
+  font-size: 1.25rem;
+  border: 1px solid white;
+  border:none !important;
+}
+.accordion button:not(.collapsed){
+  position: relative;
+  text-decoration: none !important;
+  /* border: 1px solid #001538;
+  border-bottom: none; */
+}
+.accordion button {
+ position: relative;
+border:none;
+  text-decoration: none;
+  border-radius: 0;
+  line-height: 1.4;
+  white-space: unset;
+  font-weight: 600;
+  cursor: pointer;
+  background: none;
+  color: #001538;
+  font-size: 1.25rem;
+  padding: 10px 20px;
+  outline: none;
+}
+.accordion button:after{
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  content:"\f077";
+  right: 19px;
+  top: 13px;
+  font-size: 16px;
+  transition: .3s ease-in-out;
+}
+.accordion button.collapsed:after{
+transform: rotate(180deg);
+transition: .3s ease-in-out;
+}
+.accordion button:hover {
+  text-decoration: none !important;
+  color: #001538;
+}
+/* .accordion button.collapsed:hover {
+  border: 1px solid pink;
+} */
+
+.accordion button:focus {
+  box-shadow: none;
+  /* border-color: rgba(0,0,0,.125); */
+}
+.test{
+  /* border:1px solid #001538;
+  border-top: none !important; */
 }
