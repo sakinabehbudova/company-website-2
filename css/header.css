@@ -66,10 +66,27 @@
   transform: translateZ(0);
   padding: 11px 15px;
 }
-.menu1 a{
-  
+.header-logo {
+  width: 80px;
+  margin-top: -9px;
+  width: 80px;
 }
-.tab-pane a{
+
+.header-logo img {
+  height:  80px;
+
+}
+.footer-logo {
+  width: 80px;
+ 
+
+}
+.footer-logo img {
+  width: 80px;
+  margin-top: -12px;
+
+}
+.tab-pane a {
   padding: 9px 11px;
 }
 .navigation-grouping a {
@@ -78,7 +95,8 @@
 .container2 {
   padding: 50px 100px 30px 120px;
 }
-.menu1 a:hover,.tab-pane a:hover {
+.menu1 a:hover,
+.tab-pane a:hover {
   color: #fff;
   background: #001538;
   text-decoration: none;
@@ -210,4 +228,9 @@
   padding-top: 20px;
   padding-left: 40px;
   padding-bottom: 30px;
+}
+.component-content{
+  color: #3b3b3b;
+  font-size: 12.5px;
+  margin-top: 10px;
 }
