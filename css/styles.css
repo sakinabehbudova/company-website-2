@@ -16,7 +16,7 @@ body {
 }
 header {
   /* padding: 30px 0 15px; */
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 .title1 {
   color: #001538;
@@ -30,7 +30,7 @@ header {
   color: #3b3b3b;
   line-height: 30px;
 }
-.btn1 {
+.btn1,.btn5 {
   background: #f7f7f7;
   height: 50px;
   line-height: 50px;
@@ -43,7 +43,8 @@ header {
 }
 .btn1,
 .btn3,
-.btn4 {
+.btn4,
+.btn5 {
   position: relative;
   display: inline-block;
   padding: 0 40px 0 16px;
@@ -62,6 +63,12 @@ header {
   width: 100%;
   height: auto;
   padding: 4px 52px 4px 16px;
+ 
+}
+.btn5{
+  box-shadow: inset 0 0 0 1px #8f8f8f;
+  text-align: center;
+  padding: 0 40px;
 }
 .btn4:after {
   position: absolute;
@@ -94,12 +101,14 @@ header {
 }
 .btn1:hover,
 .btn3:hover,
-.btn4:hover {
+.btn4:hover,
+.btn5:hover {
   border-color: #001538;
   text-decoration: none;
   transition: all 0.2s ease-out;
   color: #001538;
 }
+
 .btn1:hover::after,
 .btn3:hover::after {
   transition: all 0.2s ease-out;
@@ -122,6 +131,9 @@ header {
   margin: auto;
   text-align: center;
   margin-bottom: 30px;
+}
+.banner1{
+  background-image: url(../images/bannerrr.jpeg);
 }
 .section3-img {
   position: relative;
@@ -281,6 +293,7 @@ header {
 }
 .news-img img {
   width: 100%;
+  height: 250px;
 }
 .news-content {
   margin-top: 15px;
@@ -754,4 +767,13 @@ footer {
   color: #001538 !important;
   font-size: 3.5rem;
   line-height: 66px;
+}
+/*News Page*/
+.title3{
+  font-size: 5rem;
+  color: #001538;
+    font-weight: 700;
+    line-height: 1.25em;
+    margin: 0 0 20px;
+    padding: 0;
 }

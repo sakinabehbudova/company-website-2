@@ -8,7 +8,7 @@
 }
 #menu-ul .menu-item {
   /* position:static; */
-  padding: 18px 12px 36px;
+  padding: 33px 12px;
 }
 #menu-ul li .item-link {
   color: #001538;
@@ -68,13 +68,25 @@
 }
 .header-logo {
   width: 80px;
-  margin-top: -9px;
+  /* margin-top: -9px; */
   width: 80px;
 }
+.logo-row{
+  width: 19%;
+  text-decoration: none !important;
+}
+.company-name{
+  text-decoration: none;
+  color: #001538;
+  margin-left: 5px;
+  font-size: 20px;
+    font-weight: 600;
+}
+
 
 .header-logo img {
   height:  80px;
-
+object-fit: contain;
 }
 .footer-logo {
   width: 80px;
