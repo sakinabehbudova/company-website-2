@@ -138,6 +138,9 @@ header {
 .banner2{
   background-image: url(../images/Main\ page\ slayder.jpg);
 }
+.banner3{
+  background-image: url(../images/Growing\ for\ Healthy\ Future.jpg);
+}
 .section3-img {
   position: relative;
   height: 600px;
@@ -549,12 +552,18 @@ footer {
   left: 6%;
   background: #001538b3;
   padding: 24px 24px 30px;
+  max-width: 600px;
 }
 .banner-text h1 {
   font-size: 4.5rem;
   line-height: 86px;
   color: #fff;
   font-weight: 700;
+}
+.banner-text .text-white{
+  /* color: #fff; */
+  margin: 0 0 30px;
+  line-height: 30px;
 }
 #products .products-wrapper {
   margin-bottom: 40px;
@@ -779,4 +788,32 @@ footer {
     line-height: 1.25em;
     margin: 0 0 20px;
     padding: 0;
+}
+#grain-table table {
+ border: 1px solid #dddddd;
+  border-collapse: collapse;
+  width: 80%;
+  margin: auto;
+}
+
+#grain-table td,#grain-table th {
+  /* border: 1px solid #dddddd; */
+  text-align: left;
+  padding: 11px;
+}
+
+#grain-table tbody tr:nth-child(even) {
+  background-color: #f2f7fb;
+}
+#grain-table tbody tr{
+  font-size: .875rem;
+  line-height: 1.4;
+
+}
+#grain-table thead{
+  background-color: #00627b ;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: .875rem;
+  line-height: 1.4;
 }
