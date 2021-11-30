@@ -38,7 +38,7 @@
 .main-navigation-mega-menu {
   display: none;
   position: absolute;
-  top: 78px;
+  top: 90px;
   right: 0;
   z-index: 2;
   background-color: #f7f7f7;
@@ -67,36 +67,29 @@
   padding: 11px 15px;
 }
 .header-logo {
-  width: 80px;
-  /* margin-top: -9px; */
-  width: 80px;
 }
-.logo-row{
-  width: 19%;
+.logo-row {
   text-decoration: none !important;
 }
-.company-name{
+.company-name {
   text-decoration: none;
   color: #001538;
   margin-left: 5px;
-  font-size: 20px;
-    font-weight: 600;
+  font-size: 26px;
+  font-weight: 600;
+  white-space: nowrap;
 }
 
-
 .header-logo img {
-  height:  80px;
-object-fit: contain;
+  height: 90px;
+  object-fit: contain;
 }
 .footer-logo {
   width: 80px;
- 
-
 }
 .footer-logo img {
   width: 80px;
   margin-top: -12px;
-
 }
 .tab-pane a {
   padding: 9px 11px;
@@ -125,12 +118,7 @@ object-fit: contain;
   border-bottom: none;
   padding-top: 2px;
 }
-/* .tabs-left {
-  border-right: 1px solid #ddd;
-}
-.tabs-right {
-  border-left: 1px solid #ddd;
-} */
+
 .tabs-left > li,
 .tabs-right > li {
   float: none;
@@ -141,27 +129,7 @@ object-fit: contain;
 .tabs-right > li {
   margin-left: -1px;
 }
-.tabs-left > li.active > a,
-.tabs-left > li.active > a:hover,
-.tabs-left > li.active > a:focus {
-  /* border-bottom-color: #ddd;
-  border-right-color: transparent;
-  color:#EB6841;
-  cursor: pointer; */
-}
 
-/* .tabs-right>li.active>a,
-.tabs-right>li.active>a:hover,
-.tabs-right>li.active>a:focus {
-  border-bottom: 1px solid #ddd;
-  border-left-color: transparent;
-} */
-/* .tabs-left>li>a {
-  border-radius: 4px 0 0 4px;
-  margin-right: 0;
-  display:block;
-  color:#EB6841;
-} */
 .tabs-right > li > a {
   border-radius: 0 4px 4px 0;
   margin-right: 0;
@@ -176,19 +144,6 @@ object-fit: contain;
   width: 120px;
   margin-bottom: 100px;
 }
-/* .sideways>li>a {
-  border-bottom: 1px solid #ddd;
-  border-right-color: transparent;
-  text-align: center;
-  border-radius: 4px 4px 0px 0px;
-} */
-/* .sideways>li.active>a,
-.sideways>li.active>a:hover,
-.sideways>li.active>a:focus {
-  border-bottom-color: transparent;
-  border-right-color: #ddd;
-  border-left-color: #ddd;
-} */
 .sideways.tabs-left {
   left: -50px;
 }
@@ -241,7 +196,7 @@ object-fit: contain;
   padding-left: 40px;
   padding-bottom: 30px;
 }
-.component-content{
+.component-content {
   color: #3b3b3b;
   font-size: 12.5px;
   margin-top: 10px;
